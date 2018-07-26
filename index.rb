@@ -6,8 +6,18 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
+
+end
+
+cart_total = 0 #this is the total price of all items
+cart_items_price.each do |price|
+  cart_total = cart_total + price
+end
+
+puts "Your total price is: #{cart_total}"
+
 def sandwich_request(ingredients, order) 
-  # your code here!
+  sandwich[]
 end
 
 # example city_info hash
